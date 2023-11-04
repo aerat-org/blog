@@ -4,3 +4,4 @@
 - [ ] Thoughts on switching from Windows to Mac/Linux
 - [ ] Alternative keyboard layouts
 - [ ] Opposing Viewpoints: Default vs Custom settings
+- [ ] Degradation of internet search
