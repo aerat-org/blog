@@ -10,8 +10,6 @@ theme = 'paper'
 
   # header social icons
   github = 'aerat-org'                 # github.com/YOUR_GITHUB_ID
-
-  avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
   name = "Aerat"
   bio = "Aerith and Kat's Blog!"
 

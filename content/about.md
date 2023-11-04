@@ -12,8 +12,8 @@ Kat Nykiel is a PhD candidate in Dr. Alejandro Strachan’s lab at Purdue Univer
 
 [![Kat's Site](https://img.shields.io/badge/-Website-blue?style=flat-square&logo=github)](https://katnykiel.github.io/)
 
-## Aerith Netzer, MLIS
+## Aerith Netzer
 
-Aerith is a librarian at Northwestern University, where she specializes in managing the Digital Publishing initiatives on the backend, as well as the institutional repository. She is currently studying Business and Information Systems at Loyola University Chicago.
+Aerith is a librarian at Northwestern University, where she specializes in Digital Publishing. Her research focuses on identity in media and technology, and is currently studying Business and Information Systems at Loyola University Chicago. Outside of work, Aerith enjoys reading, coffee, and video games.
 
 [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/aerithnetzer)
