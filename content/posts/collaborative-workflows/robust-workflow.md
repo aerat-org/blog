@@ -1,47 +1,9 @@
 +++
-title = 'Collaborative Workflows for Academic Publishing'
-date = 2023-11-04
+title = 'A Robust Workflow'
+date = 2023-11-05
 draft = false
-author = 'Kat Nykiel and Aerith Netzer'
+author = "Aerith Netzer"
 +++
-
-## Introduction
-
-Communication of your research to others is a core component of life in academia. This is done through lectures, workshops, and most notably: papers. It is therefore highly beneficial to develop effective practices for publishing your results via papers.
-
-We identify several requirements for a competent publication workflow.
-
-- *easy collaboration with others*
-- *flexible output formats*
-- *integration with a reference manager*
-- *version control*
-
-Below, we propose two opposing solutions that meet these requirements, and suggest a middle ground.
-
-## Collaborative Workflows are *Simple*
-
-This workflow aims to follow one guiding principle:
-
-> Mininize friction by keeping the technical barrier low
-
-In this end of the spectrum, we aim to use tools most non-technical users would already be familiar with. This sacrifices flexibility and control available in more dedicated tools, instead aiming for a simpler user experience.
-
-## Microsoft Word
-
-Like it or not, MS Word is by far the most used writing tool. It has embedded its way into universities and industry alike. It makes it compatively easy to generate professional-looking documents with minimal configuration, and is well integrated with other Microsoft 365 products.
-
-## Cloud Storage Provider
-
-- box, google drive, onedrive, etc.
-- most of these implement some kind of version control
-
-## Zotero
-
-- reference manager
-- let one person handle the citations with their own zotero library
-- let others link their documents
-
-## A Robust Workflow
 
 ![Robust Workflow](/Collaborative_Workflow_Arch.png)
 
@@ -55,8 +17,6 @@ This article describes a collaborative scholarly workflow for digital-first publ
 - Citation Management: Zotero
 - Text Editor: VS Code
 - Conversion: Pandoc
-
-
 
 ## "Quick" Start
 
@@ -128,6 +88,8 @@ Pandoc-render makes a reproducible pandoc command, which will allow you to rende
 
 ##### A Note on CSL files
 
+CSL files are citation style language files, which tell pandoc how to format your citations. You can find a list of CSL files here: 
+
 Follow the instructions for installing vscode-pandoc here: [Link](https://marketplace.visualstudio.com/items?itemName=DougFinke.vscode-pandoc)
 
 Open the vscode-pandoc settings, and set the pdf output command to something like the following: 
@@ -136,24 +98,20 @@ Open the vscode-pandoc settings, and set the pdf output command to something lik
 --csl=<path/to/your/csl/file.csl> --metadata link-citations=true --filter mermaid-filter --filter pandoc-crossref --citeproc --standalone --from=markdown+yaml_metadata_block
 ```
 
+Let's break down what this command does:
+
+- `--csl=<path/to/your/csl/file.csl>`: This tells pandoc where to find your CSL file, which will tell pandoc how to format your citations
+- `--metadata link-citations=true`: This tells pandoc to link your citations to the bibliography
+- `--filter mermaid-filter`: This tells pandoc to render mermaid diagrams
+- `--filter pandoc-crossref`: This tells pandoc to render cross references
+- `--citeproc`: This tells pandoc to use the citation processor
+- `--standalone`: This tells pandoc to render a standalone document
+- `--from=markdown+yaml_metadata_block`: This tells pandoc to render from markdown, and to use the yaml metadata block
+
 You can also use this command for all the other output formats, but I tend to only use PDF and sometimes DOCX if I am working with someone who is not familiar with Markdown.
 
 Now, when you type `ctrl+shift+p` and type `pandoc`, you should see a list of commands, including `pandoc render`, which will then show a list of output formats. Select the PDF, and it will render your document.
 
-### Zotero Setup
+#### Let's Start Writing!
 
-1. Install Zotero
-2. Create a new library for your project
-3. Install the Better BibTex plugin
-4. Configure Better BibTex to export to a .bib file in your project's root directory, enable automatic export
-5. Add a `.csl` file to your project's root directory
-
-### Extension Setup
-
-1. Install the Pandoc Citer extension
-2. Configure the extension to use the .bib and `.csl` files in your project's root directory
-3. Configure the extension to use the citation style you want to
-
-## Can you have both?
-
-- indermediate solution combining markdown/docx
+You can now start writing your document, you can use VSCode to write your essay/article/book/dissertation, use bibtex keys to cite sources, and then render your document to PDF, all while using git to track changes and collaborate with others.
