@@ -14,7 +14,7 @@ In this end of the spectrum, we aim to use tools most non-technical users would 
 ![MS Work publication work](/simple-workflow.png)
 
 ## Zotero
-
+ttt
 Zotero is an open-source reference management tool. It's incredibly useful to organize, read, annotate, and cite academic papers. For a collaborative workflow with Zotero, the simplest approach is to let one author manage the citations in their own library, and implement them in the manuscript using the practices described later in this post.
 
 ## Microsoft Word
