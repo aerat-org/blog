@@ -5,3 +5,4 @@
 - [ ] Alternative keyboard layouts
 - [ ] Opposing Viewpoints: Default vs Custom settings
 - [ ] Degradation of internet search
+- [ ] Vim Configuration

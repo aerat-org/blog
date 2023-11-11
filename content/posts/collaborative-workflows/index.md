@@ -3,7 +3,10 @@ title = 'Workflows for Collaborative Scholarly Publishing'
 date = 2023-11-05
 draft = false
 author = "Aerith Netzer, Kat Nykiel"
+
 +++
+
+
 
 ## Introduction
 
