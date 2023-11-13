@@ -6,7 +6,7 @@ draft = false
 
 Hello, world!
 
-![Hello World](Collaborative_Workflow_Arch.png)
+![Hello World](static/Collaborative_Workflow_Arch.pngCollaborative_Workflow_Arch.png)
 
 Love,
 
