@@ -6,6 +6,8 @@ draft = false
 
 Hello, world!
 
+![Hello World](static/apple-touch-icon.png)
+
 Love,
 
 Aerat (Aerith & Kat!)
