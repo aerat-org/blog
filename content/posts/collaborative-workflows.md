@@ -20,7 +20,7 @@ Below, we propose two opposing solutions that meet these requirements, and sugge
 
 ## Robust Workflow
 
-![Robust Workflow](/robust-workflow.png)
+![Robust Workflow](static/robust-workflow.png)
 
 Scholarship is a collaborative and iterative process, where small changes build up over time to create a final product. Further, we should strive to make our research process as open and transparent as possible. The workflow I propose as a solution to these problems is a workflow that prioritizes open source tools, version control, and reproducibility.  
 
