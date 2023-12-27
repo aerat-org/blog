@@ -1,11 +1,11 @@
 +++
 title = 'A Robust Workflow'
 date = 2023-11-05
-draft = false
+draft = true
 author = "Aerith Netzer"
 +++
 
-![Robust Workflow](/Collaborative_Workflow_Arch.png)
+![Robust Workflow](static/robust-workflow.png)
 
 Scholarship is a collaborative and iterative process, where small changes build up over time to create a final product. Further, we should strive to make our research process as open and transparent as possible. The workflow I propose as a solution to these problems is a workflow that prioritizes open source tools, version control, and reproducibility.  
 

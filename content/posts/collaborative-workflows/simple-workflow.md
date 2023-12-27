@@ -1,7 +1,7 @@
 +++
 title = 'A Simple Workflow'
 date = 2023-11-05
-draft = false
+draft = true
 author = "Kat Nykiel"
 +++
 
