@@ -6,8 +6,6 @@ draft = false
 
 Hello, world!
 
-![Hello World](/static/Collaborative_Workflow_Arch.png)
-
 Love,
 
 Aerat (Aerith & Kat!)

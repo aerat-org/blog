@@ -20,7 +20,7 @@ Below, we propose two opposing solutions that meet these requirements, and sugge
 
 ## Robust Workflow
 
-![Robust Workflow](static/robust-workflow.png)
+![Robust Workflow](/blog/robust-workflow.png)
 
 Scholarship is a collaborative and iterative process, where small changes build up over time to create a final product. Further, we should strive to make our research process as open and transparent as possible. The workflow I propose as a solution to these problems is a workflow that prioritizes open source tools, version control, and reproducibility.  
 
@@ -93,7 +93,7 @@ Follow the instructions for configuring Better Bibtex here: [Link](https://retor
 
 Open the pandoc citer settings, and have the .bib file point to wherever your .bib file is stored.
 
-![Pandoc Citer Settings](/pandoc_citer.png)
+![Pandoc Citer Settings](/blog/pandoc_citer.png)
 
 Now, when you type `@` in a markdown file, you should see a list of your citations.
 
@@ -139,7 +139,7 @@ This workflow aims to follow one guiding principle:
 
 In this end of the spectrum, we aim to use tools most non-technical users would already be familiar with. This sacrifices flexibility that may be available in more dedicated tools, instead aiming for a simpler user experience.
 
-![MS Work publication work](/simple-workflow.png)
+![MS Work publication work](/blog/simple-workflow.png)
 
 ## Zotero
 
@@ -153,7 +153,7 @@ Like it or not, MS Word is by far the most used writing tool. It has embedded it
 
 MS Word's "Track Changes" feature is incredibly useful in collaborative settings. For collaborators working on the same document, each author can add comments and make their own edits, with all changes saved in a clean markup format.
 
-![Alt text](/track-changes.png)
+![Alt text](/blog/track-changes.png)
 
 This feature is invaluable in asynchronous collaboration. It's as easy to use as turning on "Track Changes" under MS Word's "Review" panel.
 
